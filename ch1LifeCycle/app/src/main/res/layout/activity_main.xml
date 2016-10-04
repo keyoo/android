@@ -21,4 +21,16 @@
         <requestFocus />
     </EditText>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="launchDemo"
+        android:id="@+id/launch_demo_btn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AllowTaskReparentingDemoBtn"
+        android:id="@+id/allow_task_reparenting_btn" />
+
 </LinearLayout>

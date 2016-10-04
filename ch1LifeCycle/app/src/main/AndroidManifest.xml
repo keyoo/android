@@ -11,13 +11,17 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
-        </activity>
-        <activity android:name=".ThirdActivity">
-        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivity" />
+        <activity
+            android:name=".LaunchDemoStandardActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.yck.other"></activity>
+        <activity android:name=".AllowTaskReparentingDemoActivity"></activity>
     </application>
 
 </manifest>
